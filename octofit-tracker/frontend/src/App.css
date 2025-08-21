@@ -1,0 +1,124 @@
+
+.App {
+  text-align: center;
+  background: linear-gradient(135deg, #f0f4f9 0%, #e0e7ff 100%);
+  min-height: 100vh;
+}
+
+
+.App-logo {
+  height: 60px;
+  width: auto;
+  pointer-events: none;
+  margin-right: 16px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  background: linear-gradient(90deg, #0d47a1 0%, #1976d2 100%);
+  min-height: 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: calc(12px + 2vmin);
+  color: #fff;
+  padding: 1rem 2rem;
+}
+
+
+.App-link {
+  color: #1976d2;
+  font-weight: 500;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+.App-link:hover {
+  color: #0d47a1;
+}
+
+/* Bootstrap table custom colors */
+.table-custom {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(13, 71, 161, 0.08);
+  overflow: hidden;
+}
+.table-custom thead {
+  background: #1976d2;
+  color: #fff;
+}
+.table-custom tbody tr:nth-child(even) {
+  background: #f0f4f9;
+}
+
+/* Bootstrap button custom colors */
+.btn-primary, .btn-primary:active, .btn-primary:focus {
+  background: #1976d2;
+  border-color: #1976d2;
+}
+.btn-primary:hover {
+  background: #0d47a1;
+  border-color: #0d47a1;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #0d47a1;
+  font-weight: 700;
+}
+
+/* Navigation */
+.navbar {
+  background: linear-gradient(90deg, #1976d2 0%, #42a5f5 100%) !important;
+}
+.navbar-brand {
+  color: #fff !important;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.nav-link {
+  color: #e3f2fd !important;
+  font-weight: 500;
+}
+.nav-link.active, .nav-link:focus, .nav-link:hover {
+  color: #fff !important;
+  background: #1976d2 !important;
+}
+
+/* Card styling */
+.card {
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(25, 118, 210, 0.10);
+  border: none;
+}
+
+/* Modal styling */
+.modal-content {
+  border-radius: 12px;
+}
+.modal-header {
+  background: #1976d2;
+  color: #fff;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.modal-footer {
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
